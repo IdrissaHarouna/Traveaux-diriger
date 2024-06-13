@@ -5,61 +5,42 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<center>
-
-    <form>
- 
-<h3>Ajout d'un nouveau salarié</h3>
-    
-        <fieldset style="WIDTH:400;" align="center">
-        
+    <form id="all">
+        <div class="tout">
+        <h3>Ajout d'un nouveau salarié</h3>
+         <div class="one"> 
+        <fieldset class="ess">
            <label><legend>Informations Civile : </legend></label>
 		    <label>prénom :  </label>
         <input type="text" name="prenom" id="prenom">
          <br> <br>
-        <label>Nom :    </label>
+        <label>Nom :</label>
         <input type="text" name="nom" id="nom" >
         <br> <br>
     
 
-
-<label for="cdepaysnaissance">Pays de Naissance : </label>
-<select size="1" class="text" id="cdepaysnaissae">
-    <option value="fr" selected>FR</option>
-    <option value="en">EN</option>
-    <option value="de">DE</option>
-</select>
- <br>  <br>
- <label>Date de naissance :</label>
+        <label for="cdepaysnaissance">Pays de Naissance : </label>
+         <select size="1" class="text" id="cdepaysnaissae">
+        <option value="fr" selected>FR</option>
+         <option value="en">EN</option>
+        <option value="de">DE</option>
+       </select>
+       <br>  <br>
+      <label>Date de naissance :</label>
        <input type="date" name="daten" id="daten">
 	   <br> <br> 
-<label for="cdepaysnaissance">Sex : </label>	   
+       <label for="cdepaysnaissance">Sex : </label>	   
 		<input type="radio" name="type" id="type" value="mas">M
-   <input type="radio" name="type" id="type" value="fem"> F
-  <br> <br>  
- 
-
-
-
-
-
- 
- <div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer le formulaire" />
- 
-</form>
-</fieldset>
- 
- 
-    
- 
-   
- 
-   
- 
- 
-   
-
-</form>
+       <input type="radio" name="type" id="type" value="fem"> F
+       <br> <br>  
+ <!-- <div class="one"> -->
+       <input type="submit" name="envoi" value="Envoyer le formulaire" />
 </div>
+ <div TWO>
+    <img src="IMAGES/FORM.jpg" alt="">
+ </div>
+</fieldset>
+</div>
+</form>
 </body>
 </html>
